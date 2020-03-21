@@ -1,0 +1,15 @@
+account_id = "b3fb0dbd00f0e36bf4c7e308df5b6abd"
+zone_id = "1089fc1a715cef2be784d1fc1f7b1923"
+type = "webpack"
+workers_dev = false
+webpack_config = "webpack.config.js"
+
+# Production
+[env.production]
+name = "prod-madeiratech-org"
+routes = ["https://madeiratech.org/", "https://madeiratech.org/robots.txt"]
+
+# Staging
+[env.staging]
+name = "staging-madeiratech-org"
+routes = ["https://staging.madeiratech.org/*"]

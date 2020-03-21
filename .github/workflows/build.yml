@@ -1,0 +1,21 @@
+name: Build
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Navigate to repo
+      run: cd $GITHUB_WORKSPACE
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+        registry-url: 'https://npm.pkg.github.com'
+    - name: Install Wrangler
+      run: npm i @cloudflare/wrangler@1.8.2 -g
+    - name: Install Workers script deps
+      run: npm install
+    - name: Build Worker
+      run: wrangler build
