@@ -1,6 +1,6 @@
 {
   "name": "madeiratech.org",
-  "version": "2020.03.20-build.1",
+  "version": "2020.03.21-build.1",
   "description": "Madeira Tech Meetup Website",
   "main": "index.js",
   "repository": "git@github.com:madeiratech/madeiratech.org.git",

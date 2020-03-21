@@ -1,10 +1,9 @@
 # Madeira Tech Meetup Website
 
-
-
 ## GitHub Actions
 
-Deploy
+- Deploy
+- Build
 
 ## GitHub Secrets
 
