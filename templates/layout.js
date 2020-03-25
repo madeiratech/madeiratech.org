@@ -12,10 +12,13 @@ const layout = () => `
     <div class="container mx-auto">
       <h1 class="text-5xl text-center py-8"><b>Madeira Tech Meetup</b></h1>
       <h2 class="text-3xl text-center"><b>Next Edition</b></h2>
-      <h3 class="text-xl text-center">Wed, April 15th</h3>
+      <h3 class="text-xl text-center">
+        📅 Wed, April 15th<br>
+        <a href="https://goo.gl/maps/uyurHP3Le5yCNaqLA" target="_blank">📌 Cowork Funchal</a>
+      </h3>
       <p class="text-center py-4">
         <a href="https://www.meetup.com/pt-BR/Madeira-Tech/events/268681799/" target="_blank">
-          Sign up here!
+          👉 Sign up here! 👈
         </a>
       </p>
       <div class="flex flex-wrap">
