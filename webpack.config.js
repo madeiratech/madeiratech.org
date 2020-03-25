@@ -8,5 +8,5 @@ module.exports = {
   devtool: "none",
   optimization: {
     minimize: true
-  }
+  },
 };
