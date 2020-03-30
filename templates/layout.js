@@ -27,5 +27,5 @@ const layout = () => `
     </div>
   </body>
 </html>
-`
-module.exports = layout
+`;
+module.exports = layout;

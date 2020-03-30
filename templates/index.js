@@ -1,7 +1,7 @@
-const layout = require('../templates/layout')
+const layout = require("../templates/layout");
 
 const template = () => {
-  return layout()
-}
+  return layout();
+};
 
-module.exports = template
+module.exports = template;
