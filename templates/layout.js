@@ -6,6 +6,7 @@ const layout = () => `
     <title>Madeira Tech Meetup</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="/static/tailwind.min.css" rel="stylesheet">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
   </head>
   <body style="font-family: 'ubuntu';">

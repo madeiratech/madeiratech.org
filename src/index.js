@@ -39,6 +39,18 @@ const handleRequest = async event => {
       "https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css",
       { cf: { cacheTtl: 30 * 86400 } }
     );
+  } else if (element[0] === "favicon.svg") {
+    /** favicon */
+    const favicon = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">🍕</text></svg>`;
+    return new Response(favicon, {
+      status: 200,
+      statusText: "OK",
+      headers: {
+        "x-version": version,
+        "content-type": mime.getType("svg"),
+        "cache-control": cache_control
+      }
+    });
   } else {
     /** 404 */
     return new Response("404 Not Found", {
