@@ -3,7 +3,7 @@ import mime from "mime";
 import { DateTime } from "luxon";
 import { version } from "../package.json";
 
-const template = require('../templates/index')
+const template = require("../templates/index");
 
 /**
  * Respond to the request
@@ -22,17 +22,30 @@ const handleRequest = async event => {
       status: 200,
       statusText: "OK"
     });
+  } else if (element[0] === undefined) {
+    /** index */
+    return new Response(template(), {
+      status: 200,
+      statusText: "OK",
+      headers: {
+        "x-version": version,
+        "content-type": mime.getType("html"),
+        "cache-control": cache_control
+      }
+    });
+  } else if (_.isEqual(element, ["static", "tailwind.min.css"])) {
+    /** tailwind */
+    return await fetch(
+      "https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css",
+      { cf: { cacheTtl: 30 * 86400 } }
+    );
+  } else {
+    /** 404 */
+    return new Response("404 Not Found", {
+      status: 404,
+      statusText: "Not Found"
+    });
   }
-
-  return new Response(template(), {
-    status: 200,
-    statusText: "OK",
-    headers: {
-      "x-version": version,
-      "content-type": mime.getType("html"),
-      "cache-control": cache_control
-    }
-  });
 };
 
 addEventListener("fetch", event => event.respondWith(handleRequest(event)));
