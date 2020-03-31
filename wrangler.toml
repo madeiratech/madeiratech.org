@@ -7,7 +7,7 @@ webpack_config = "webpack.config.js"
 # Production
 [env.production]
 name = "prod-madeiratech-org"
-routes = ["https://madeiratech.org/", "https://madeiratech.org/robots.txt"]
+routes = ["https://madeiratech.org/*"]
 
 # Staging
 [env.staging]
