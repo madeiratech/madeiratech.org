@@ -5,7 +5,8 @@ const layout = () => `
     <meta charset="UTF-8">
     <title>Madeira Tech Meetup</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="/static/tailwind.min.css" rel="stylesheet">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
   </head>
   <body style="font-family: 'ubuntu';">
@@ -22,10 +23,9 @@ const layout = () => `
         </a>
       </p>
       <div class="flex flex-wrap">
-
       </div>
     </div>
   </body>
 </html>
-`
-module.exports = layout
+`;
+module.exports = layout;
