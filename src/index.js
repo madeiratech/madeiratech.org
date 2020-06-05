@@ -1,6 +1,5 @@
 import _ from "lodash";
 import mime from "mime";
-import { DateTime } from "luxon";
 import { version } from "../package.json";
 
 const template = require("../templates/index");
