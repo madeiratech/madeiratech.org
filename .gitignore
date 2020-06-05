@@ -104,6 +104,4 @@ dist
 .tern-port
 
 #Cloudflare Workers
-package-lock.json
-yarn.lock
 worker
