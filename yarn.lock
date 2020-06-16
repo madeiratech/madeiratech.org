@@ -23,10 +23,10 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@cloudflare/wrangler@^1.9.2":
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/@cloudflare/wrangler/-/wrangler-1.9.2.tgz#626e31d1b50b08cdc70d1662781aaf20f3af1c89"
-  integrity sha512-gqw/Y3oa75xKF8nTsXrzipKL5Sm5c6RgDhd7byzbKf9pWQH7sB0kQ+BrhY0wLeFPeXTrPq78TWBNxAXB2Tizsw==
+"@cloudflare/wrangler@^1.10.0":
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/@cloudflare/wrangler/-/wrangler-1.10.0.tgz#e67f7a41fdac9f30130bad380f545b796e10a5e1"
+  integrity sha512-CFu2S+5kewuCD9X0u+U1riau/IvvntqRmc6Mgls1Jr2FqjgNa61BjNdx2J69NSZQ+orMaWwe+28Jgmzmcs1T3A==
   dependencies:
     binary-install "0.0.1"
 
