@@ -17,7 +17,7 @@
     "@cloudflare/wrangler": "^1.10.3",
     "accept-language-parser": "^1.5.0",
     "eslint": "^7.6.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.20",
     "mime": "^2.4.6"
   }
 }
