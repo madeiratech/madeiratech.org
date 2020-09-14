@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "husky": "^4.2.5",
+    "husky": "^4.3.0",
     "prettier": "^2.1.1",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
