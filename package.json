@@ -11,7 +11,7 @@
     "husky": "^4.3.6",
     "prettier": "^2.2.1",
     "webpack": "^5.10.0",
-    "webpack-cli": "^4.2.0"
+    "webpack-cli": "^4.3.0"
   },
   "dependencies": {
     "@cloudflare/wrangler": "^1.12.2",
