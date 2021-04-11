@@ -10,7 +10,7 @@
   "devDependencies": {
     "husky": "^6.0.0",
     "prettier": "^2.2.1",
-    "webpack": "^5.28.0",
+    "webpack": "^5.31.2",
     "webpack-cli": "^4.6.0"
   },
   "dependencies": {
