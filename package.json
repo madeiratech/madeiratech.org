@@ -16,7 +16,7 @@
   "dependencies": {
     "@cloudflare/wrangler": "^1.19.8",
     "accept-language-parser": "^1.5.0",
-    "eslint": "^8.9.0",
+    "eslint": "^8.10.0",
     "lodash": "^4.17.21",
     "mime": "^3.0.0"
   }
